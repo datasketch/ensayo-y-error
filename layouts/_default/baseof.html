@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500&display=swap" rel="stylesheet">
+  {{ $style := resources.Get "tailwind.css" | postCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <title>{{ .Site.Title }}</title>
+</head>
+<body class="font-open-sans">
+  {{ partial "nav.html" . }}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

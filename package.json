@@ -1,0 +1,18 @@
+{
+  "name": "ensayo-y-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.7.2",
+    "postcss": "^7.0.23",
+    "postcss-cli": "^6.1.3"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

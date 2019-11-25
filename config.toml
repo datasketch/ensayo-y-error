@@ -1,0 +1,4 @@
+baseURL = "/ensayo-y-error/"
+languageCode = "es-MX"
+title = "Ensayo y error"
+publishDir = "docs"

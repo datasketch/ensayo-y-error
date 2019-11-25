@@ -1,0 +1,126 @@
+{{ define "main" }}
+  <div class="min-h-screen bg-center bg-cover bg-repeat-space" style="background-image: url('{{.Site.BaseURL}}images/bg-home.jpg');">
+    <div class="flex flex-col w-full h-full items-center justify-center">
+      <img src='{{ "images/celular.png" | absURL }}' alt="" class="w-96 h-96 object-center object-contain">
+      <div class="flex flex-col max-w-2xl mx-auto md:flex-row md:items-center">
+        <div class="w-full md:w-1/2 md:mr-8">
+          <img src='{{ "images/titulo.svg" | absURL }}' class="mx-auto">
+        </div>
+        <div class="w-full md:w-1/2 md:border-l-8 md:border-spring-green md:pl-8">
+          <p class="text-white font-oswald text-2xl">Realizamos un análisis de la efectividad de la medida de registro de IMEI (identificador único) frente al fenómeno del hurto de celulares en Colombia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="bg-outer-space py-16">
+    <div class="content">
+      <div class="flex flex-col md:flex-row md:-mx-12 md:items-center">
+        <div class="w-full md:w-1/2 md:px-12">
+          <div class="w-full h-full flex">
+            <div class="w-84 h-84 m-auto">
+              <img src='{{ "images/camaras.png" | absURL }}' class="w-full h-full object-center object-contain">
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 md:px-12">
+          <h3 class="text-lead text-spring-green">Si no le han robado el celular alguna vez,</h3>
+          <p class="text-white mt-6 leading-snug">probablemente conozca a alguien que haya sido víctima de este delito. Desde 2011 funciona en Colombia una Estrategia Nacional contra el Hurto de Celulares que involucró a los operadores de telefonía celular, a la Comisión de Regulación de Comunicaciones y al Ministerio de las Tecnologías de la Información y las Comunicaciones de Colombia, para evitar que estos puedan ser utilizados después de robados. ¿Ha disminuido el robo desde que se implementó la medida? Te contamos lo que encontramos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="bg-spring-green py-16">
+    <div class="content">
+      <div class="flex flex-col md:flex-row md:items-center md:-mx-12">
+        <div class="w-full md:w-1/2 md:px-12">
+          <h3 class="text-lead text-outer-space">Cuando a una persona le roban o se le pierde su celular,</h3>
+          <p class="text-outer-space mt-6 leading-snug">puede reportar el hecho a su operador –por ejemplo, Claro, Movistar o Tigo–. Con el reporte, el operador anota el identificador único del celular robado –IMEI– en una lista negativa (Base de Datos Administrativa Negativa), que impide su uso con otras tarjetas SIM. Además, copian estos IMEI bloqueados en una lista centralizada para que los celulares queden bloqueados en todos los demás operadores del país. A nivel internacional, los celulares quedan bloqueados a través de las listas que comparten con otros países y con la asociación de operadores móviles GSMA (Global System for Mobile Communications Association).</p>
+        </div>
+        <div class="w-full md:w-1/2 md:px-12">
+          <div class="w-full h-full flex">
+            <div class="w-84 h-84 m-auto">
+              <img src='{{ "images/candado.png" | absURL }}' class="w-full h-full object-center object-contain">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="flex flex-col md:flex-row">
+    <div class="w-full bg-center bg-no-repeat bg-cover md:w-5/12" style="background-image: url('{{.Site.BaseURL}}images/fondo_bda.png');">
+      <div class="w-full h-full flex">
+        <div class="w-84 h-84 m-auto">
+          <img src='{{ "images/archivos.png" | absURL }}' class="w-full h-full object-center object-cover">
+        </div>
+      </div>
+    </div>
+    <div class="w-full md:p-16 md:w-7/12">
+      <div class="max-w-lg mx-auto">
+        <h3 class="text-outer-space text-lead">La Base de Datos Administrativa Positiva (BDA Positiva)</h3>
+        <p class="text-outer-space mt-6">por otro lado, indica los celulares que sí pueden funcionar en el país. Es una base de datos similar a la primera, pero en la que se registran todos los IMEI de los celulares importados o adquiridos legalmente. En el momento en el que se activa un celular se verifica que el IMEI se encuentre registrado en la lista positiva para así impedir que funcionen celulares de contrabando o reprogramados.</p>
+        <p class="text-outer-space mt-4">Según esta estrategia, los celulares legales de la lista positiva pueden funcionar mientras que los robados o ilegales en la lista negativa están bloqueados, lo que disminuiría el robo de celulares en Colombia.</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="bg-outer-space py-24">
+    <div class="content">
+      <p class="text-white text-lead">Sin embargo, <span class="text-spring-green">el robo de celulares en Colombia no ha cambiado desde que se implementó esta estrategia de registro de IMEI</span> y nos quedan muchas dudas sobre su planeación. Esto fue lo que encontramos:</p>
+    </div>
+  </div>
+  <!---->
+  <div class="flex flex-col md:flex-row">
+    <div class="w-full p-12 bg-cover bg-no-repeat bg-center md:w-1/2" style="background-image: url('{{.Site.BaseURL}}images/bg-spring-green.jpg')">
+      <div class="flex flex-col items-center max-w-xs mx-auto">
+        <div class="w-72 h-72">
+          <img class="w-full h-full object-center object-contain" src='{{ "images/pistola.png" }}' alt="">
+        </div>
+        <p class="text-outer-space text-center text-lead">Las cifras de hurto de celulares</p>
+      </div>
+    </div>
+    <div class="w-full p-12 bg-cover bg-no-repeat bg-center md:w-1/2" style="background-image: url('{{.Site.BaseURL}}images/bg-outer-space.jpg')">
+      <div class="flex flex-col items-center max-w-xs mx-auto">
+        <div class="w-72 h-72">
+          <img class="w-full h-full object-center object-contain" src='{{ "images/advertencia.png" }}' alt="">
+        </div>
+        <p class="text-spring-green text-lead text-center">Una estrategia sin plan</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="bg-white py-16">
+    <div class="content">
+      <div class="flex flex-col md:flex-row md:-mx-12 md:justify-between md:items-center">
+        <div class="w-full md:w-5/12 md:px-12">
+          <h3 class="text-outer-space text-lead">Para la realización de este análisis</h3>
+          <p class="text-outer-space mt-6 leading-snug">se utilizaron distintas fuentes de información oficial de la Comisión de Regulación de Comunicaciones, la administradora de las bases de datos centralizadas y la Policía Nacional. Para mayor información visita nuestra <a href="" class="text-spring-green underline text-lead">metodología</a></p>
+        </div>
+        <div class="w-full mt-6 md:w-7/12 md:px-12 md:mt-0">
+          <div class="w-84 h-84 mx-auto">
+            <img src='{{ "images/gafas.png" | absURL }}' class="w-full h-full object-center object-contain">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="bg-outer-space py-16">
+    <div class="content">
+      <div class="flex flex-col md:flex-row md:-mx-12">
+        <div class="w-full md:w-1/2 md:px-12">
+          <h3 class="text-spring-green text-lead">Créditos</h3>
+          <p class="text-white mt-6 leading-snug">La información de este sitio web está basada en la investigación <a href="" target="_blank" class="text-spring-green italic underline">Ensayo y error: análisis de la efectividad del registro de celulares</a> de Fundación Karisma. En ese informe se analizan en detalle las cifras de hurto de celulares y se evidencia la falta de herramientas de monitoreo y evaluación en la política de registro.</p>
+        </div>
+        <div class="w-full mt-6 md:w-1/2 md:px-12 md:mt-0">
+          <h3 class="text-spring-green text-lead">Descargas</h3>
+          <p class="text-white mt-6 leading-snug">Los datos utilizados para realizar este especial están disponibles para que la ciudadanía pueda descargarlos y verificar la información entregada.</p>
+          <a href="" class="inline-block mt-8 leading-none px-4 py-2 bg-spring-green font-medium font-oswald text-lg text-outer-space">Descargar datos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
+{{ end }}

@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+.content {
+  @apply w-full px-4 mx-auto;
+}
+
+.text-lead {
+  @apply font-oswald font-medium leading-tight text-2xl;
+}
+
+@screen md {
+  .content {
+    @apply w-5/6;
+  }
+  .text-lead {
+    @apply text-3xl;
+  }
+}
+
+@screen md {
+  .text-lead {
+    @apply text-4xl;
+  }
+}
+
+@tailwind utilities;
