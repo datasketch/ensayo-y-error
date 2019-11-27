@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ensayo y error</title>
-    <link>/ensayo-y-error/</link>
-    <description>Recent content on Ensayo y error</description>
+    <title>Posts on Ensayo y error</title>
+    <link>/ensayo-y-error/post/</link>
+    <description>Recent content in Posts on Ensayo y error</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
     <lastBuildDate>Wed, 27 Nov 2019 10:47:11 -0500</lastBuildDate>
     
-	<atom:link href="/ensayo-y-error/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ensayo-y-error/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/ensayo-y-error/post/las-dificultades-de-esta-estrategia/</guid>
       <description>La Estrategia contra el hurto de celulares en Colombia comprendió el registro del IMEI como una respuesta directa al problema del hurto de celulares. El Congreso, a través de la Ley 1453 de 2011, y el Ministerio de las TIC, a través del Decreto 1630 de 2011, establecieron la obligación de consignar en bases de datos positivas y negativas aquellos IMEI que podían operar en el país y aquellos que no.</description>
-    </item>
-    
-    <item>
-      <title>Metodología</title>
-      <link>/ensayo-y-error/metodologia/</link>
-      <pubDate>Wed, 27 Nov 2019 09:37:24 -0500</pubDate>
-      
-      <guid>/ensayo-y-error/metodologia/</guid>
-      <description>La información de este especial web está basada en la investigación “Ensayo y error: análisis de la efectividad del registro de celulares” de Fundación Karisma. En ese informe se analizan en detalle las cifras de hurto de celulares y se evidencia la falta de herramientas de monitoreo y evaluación en la política de registro de celulares en Colombia.
-Para la realización de este especial se utilizaron distintas fuentes de información pública disponibles a través de la Comisión de Regulación de Comunicaciones, la Asociación de la Industria Móvil de Colombia y la Policía Nacional.</description>
     </item>
     
     <item>

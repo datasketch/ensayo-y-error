@@ -2,8 +2,49 @@
 
 @tailwind components;
 
-.content {
+.content,
+.post-content {
   @apply w-full px-4 mx-auto;
+}
+
+.post-content {
+  @apply text-outer-space;
+}
+
+.post-content a {
+  @apply font-bold underline;
+}
+
+.post-content p, ul {
+  @apply mt-6;
+}
+
+.post-content p:first-of-type {
+  @apply mt-0;
+}
+
+.post-content ul {
+  list-style-image: url('./images/bullet.svg');
+}
+
+.post-content li {
+  @apply mt-4
+}
+
+.post-content li:first-of-type {
+  @apply mt-0
+}
+
+.post-content ul {
+  @apply pl-6;
+}
+
+.post-content h2 {
+  @apply font-oswald text-2xl font-medium mt-10;
+}
+
+.post-content h3 {
+  @apply font-oswald font-medium  mt-8 text-xl;
 }
 
 .text-lead {
@@ -17,11 +58,29 @@
   .text-lead {
     @apply text-3xl;
   }
+  .post-content {
+    @apply w-3/5 text-lg;
+  }
+  .post-content h2 {
+    @apply text-3xl;
+  }
+  .post-content h3 {
+    @apply text-xl;
+  }
 }
 
-@screen md {
+@screen lg {
   .text-lead {
     @apply text-4xl;
+  }
+  .post-content {
+    @apply w-7/12;
+  }
+  .post-content h2 {
+    @apply text-4xl;
+  }
+  .post-content h3 {
+    @apply text-2xl;
   }
 }
 

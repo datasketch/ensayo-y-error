@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="bg-cover bg-center bg-no-repeat py-32" style="background-image: url('{{.Site.BaseURL}}images/bg-home.jpg');">
+    <div class="content">
+      <h1 class="font-medium font-oswald text-spring-green text-3xl md:text-4xl lg:text-5xl xl:text-6xl">{{ .Title }}</h1>
+    </div>
+  </div>
+  <div class="post-content py-16">
+    {{ .Content }}
+  </div>
+{{ end }}

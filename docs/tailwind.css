@@ -632,12 +632,60 @@ video {
   }
 }
 
-.content {
+.content,
+.post-content {
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.post-content {
+  color: #213133;
+}
+
+.post-content a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.post-content p, ul {
+  margin-top: 1.5rem;
+}
+
+.post-content p:first-of-type {
+  margin-top: 0;
+}
+
+.post-content ul {
+  list-style-image: url('./images/bullet.svg');
+}
+
+.post-content li {
+  margin-top: 1rem
+}
+
+.post-content li:first-of-type {
+  margin-top: 0
+}
+
+.post-content ul {
+  padding-left: 1.5rem;
+}
+
+.post-content h2 {
+  font-family: Oswald, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.post-content h3 {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  margin-top: 2rem;
+  font-size: 1.25rem;
 }
 
 .text-lead {
@@ -655,11 +703,36 @@ video {
   .text-lead {
     font-size: 1.875rem;
   }
+
+  .post-content {
+    width: 60%;
+    font-size: 1.125rem;
+  }
+
+  .post-content h2 {
+    font-size: 1.875rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.25rem;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .text-lead {
     font-size: 2.25rem;
+  }
+
+  .post-content {
+    width: 58.333333%;
+  }
+
+  .post-content h2 {
+    font-size: 2.25rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.5rem;
   }
 }
 

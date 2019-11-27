@@ -8,7 +8,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500&display=swap" rel="stylesheet">
   {{ $style := resources.Get "tailwind.css" | postCSS }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
-  <title>{{ .Site.Title }}</title>
+  {{ if .IsHome }}
+    <title>{{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ .Title }} · {{ .Site.Title }}</title>
+  {{ end }}
 </head>
 <body class="font-open-sans">
   {{ partial "nav.html" . }}
