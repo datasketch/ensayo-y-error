@@ -2,6 +2,7 @@
 title: "Las dificultades de esta estrategia"
 date: 2019-11-27T10:47:11-05:00
 draft: false
+image: advertencia.png
 ---
 
 La Estrategia contra el hurto de celulares en Colombia comprendió el registro del IMEI como una respuesta directa al problema del hurto de celulares. El Congreso, a través de la Ley 1453 de 2011, y el Ministerio de las TIC, a través del Decreto 1630 de 2011, establecieron la obligación de consignar en bases de datos positivas y negativas aquellos IMEI que podían operar en el país y aquellos que no. 
