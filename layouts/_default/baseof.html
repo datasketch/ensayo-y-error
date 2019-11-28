@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {{ block "head" . }}{{ end }}
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500&display=swap" rel="stylesheet">
   {{ $style := resources.Get "tailwind.css" | postCSS }}
@@ -20,5 +21,6 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ block "script" . }}{{ end }}
 </body>
 </html>

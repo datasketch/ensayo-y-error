@@ -55,6 +55,14 @@
   @apply mt-6
 }
 
+.post-content thead {
+  @apply bg-outer-space text-center text-white font-normal;
+}
+
+.data-table-header .data-table-dropdown-list {
+  @apply bg-outer-space;
+}
+
 @screen md {
   .content {
     @apply w-5/6;

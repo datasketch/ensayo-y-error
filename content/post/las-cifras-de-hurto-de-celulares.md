@@ -3,6 +3,7 @@ title: "Las cifras de hurto de celulares"
 date: 2019-11-27T09:29:48-05:00
 draft: false
 image: pistola.png
+hasTable: true
 ---
 
 No existe un repositorio definitivo y público con cifras sobre el comportamiento del hurto de celulares en Colombia. Por eso, para saber si el robo de celulares disminuyó desde que se creó la medida de registro de IMEI, esta investigación recurrió a solicitudes de información a la Comisión de Regulación de Comunicaciones (CRC) y la Policía Nacional. A través de Asomóvil se obtuvieron los datos de la empresa Informática El Corte Inglés, que fue contratada como administradora de las bases de datos centralizadas o administrativas (BDA).
@@ -10,6 +11,8 @@ No existe un repositorio definitivo y público con cifras sobre el comportamient
 De acuerdo con el diseño legal y regulatorio colombiano, los operadores de telefonía móvil deben contratar con un tercero la administración de las bases de datos que recogerían todos los IMEI a ser bloqueados (base de datos negativa) y todos los autorizados a funcionar (base de datos positiva). La empresa [Informática El Corte Inglés](https://www.iecisa.com/en/digital-transformation/) fue elegida como Administradora de las bases de datos comunes a todos los operadores pero responde sólo a la CRC y a los operadores. Por lo tanto la empresa no provee directamente datos de las bases de datos administrativas.
 
 El primer hallazgo encontrado entre las tres distintas fuentes de información es que no hay coincidencia sobre los datos que reportan. Esta diferencia es más importante entre la información de la CRC y la de Informática El Corte Inglés (BDA) puesto que la segunda debe reportar los mismos datos a la primera.
+
+{{< chart "final.html" >}}
 
 Ya que la información de la BDA es el reporte del número de IMEI efectivamente bloqueados, usaremos esta fuente y no la de la CRC en lo que sigue.
 
@@ -35,7 +38,7 @@ Hay varias causales por las cuales el sistema de registro bloquea un IMEI. Vale 
 
 Se evidencia que los hurtos de celulares tienen una cantidad constante de casos por año (1 millón aproximadamente), lo que representaría a simple vista una nula disminución del hurto a celulares en este periodo de tiempo.
 
-<!-- {{< chart "tabla_1.html" >}} -->
+{{< table "first-table" >}}
 
 No obstante, se observa una tendencia creciente entre enero de 2015 y julio de 2017 que alcanza el valor máximo de la serie. Después de julio de 2017 el comportamiento parece estabilizarse alrededor de los 104,470 celulares robados por mes.
 
@@ -71,6 +74,6 @@ Comparación casos de hurto de celulares de Policía Nacional y Base de Datos Ad
 
 {{< chart "seis.html" >}}
 
-<!-- {{< chart "tabla_2.html" >}} -->
+{{< table "second-table" >}}
 
 La información recopilada en este informe pone en evidencia que el hurto de teléfonos continúa sin que haya cambios significativos en las cifras o sin que se pueda contener la adaptabilidad de las conductas delictivas a los controles implementados, a pesar de que exista una Estrategia para contenerlas.

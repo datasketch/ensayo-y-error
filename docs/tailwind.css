@@ -699,6 +699,17 @@ video {
   margin-top: 1.5rem
 }
 
+.post-content thead {
+  background-color: #213133;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.data-table-header .data-table-dropdown-list {
+  background-color: #213133;
+}
+
 @media (min-width: 768px) {
   .content {
     width: 83.333333%;
