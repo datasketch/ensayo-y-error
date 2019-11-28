@@ -641,6 +641,13 @@ video {
   margin-right: auto;
 }
 
+.text-lead {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1.5rem;
+}
+
 .post-content {
   color: #213133;
 }
@@ -688,11 +695,8 @@ video {
   font-size: 1.25rem;
 }
 
-.text-lead {
-  font-family: Oswald, sans-serif;
-  font-weight: 500;
-  line-height: 1.25;
-  font-size: 1.5rem;
+.post-content .chart {
+  margin-top: 1.5rem
 }
 
 @media (min-width: 768px) {
