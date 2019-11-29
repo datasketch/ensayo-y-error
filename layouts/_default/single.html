@@ -1,3 +1,9 @@
+{{ define "head" }}
+  {{ if .Params.hasTable }}
+    <link href="https://unpkg.com/frappe-datatable@0.0.5/dist/frappe-datatable.min.css" rel="stylesheet">
+  {{ end }}
+{{ end }}
+
 {{ define "main" }}
   <div class="bg-cover bg-center bg-no-repeat py-32" style="background-image: url('{{.Site.BaseURL}}images/bg-home.jpg');">
     <div class="content">
@@ -20,4 +26,15 @@
   <div class="post-content py-16">
     {{ .Content }}
   </div>
+{{ end }}
+
+{{ define "script" }}
+  {{ if .Params.hasTable }}
+    <!-- include the dependencies -->
+    <script src="https://unpkg.com/sortablejs@1.7.0/Sortable.min.js"></script>
+    <script src="https://unpkg.com/clusterize.js@0.18.0/clusterize.min.js"></script>
+    <!-- include the lib -->
+    <script src="https://unpkg.com/frappe-datatable@0.0.5/dist/frappe-datatable.min.js"></script>
+    <script src="{{.Site.BaseURL}}js/post.js"></script>
+  {{ end }}
 {{ end }}

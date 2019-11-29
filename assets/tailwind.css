@@ -7,6 +7,10 @@
   @apply w-full px-4 mx-auto;
 }
 
+.text-lead {
+  @apply font-oswald font-medium leading-tight text-2xl;
+}
+
 .post-content {
   @apply text-outer-space;
 }
@@ -47,8 +51,16 @@
   @apply font-oswald font-medium  mt-8 text-xl;
 }
 
-.text-lead {
-  @apply font-oswald font-medium leading-tight text-2xl;
+.post-content .chart {
+  @apply mt-6
+}
+
+.post-content thead {
+  @apply bg-outer-space text-center text-white font-normal;
+}
+
+.data-table-header .data-table-dropdown-list {
+  @apply bg-outer-space;
 }
 
 @screen md {
