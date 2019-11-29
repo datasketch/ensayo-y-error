@@ -33,40 +33,24 @@
     </div>
   </div>
   <div class="post-content py-16">
-    
-
-<p>La información de este especial web está basada en la investigación “Ensayo y error: análisis de la efectividad del registro de celulares” de Fundación Karisma. En ese informe se analizan en detalle las cifras de hurto de celulares y se evidencia la falta de herramientas de monitoreo y evaluación en la política de registro de celulares en Colombia.</p>
-
+    <p>La información de este especial web está basada en la investigación “Ensayo y error: análisis de la efectividad del registro de celulares” de Fundación Karisma. En ese informe se analizan en detalle las cifras de hurto de celulares y se evidencia la falta de herramientas de monitoreo y evaluación en la política de registro de celulares en Colombia.</p>
 <p>Para la realización de este especial se utilizaron distintas fuentes de información pública disponibles a través de la Comisión de Regulación de Comunicaciones, la Asociación de la Industria Móvil de Colombia y la Policía Nacional.</p>
-
 <p>Debido a la importancia que se le ha dado a esta medida por parte del Ministerio de las TIC y la Comisión de Regulación de Comunicaciones, no se cruza esta información con otras fuentes para probar la hipótesis oficial de disminución del hurto de celulares en Colombia.</p>
-
 <p>Vale aclarar que en esta investigación no se buscó explicar por qué se ha afectado el hurto de celulares, ni señalar responsables en el sector público o privado de ningún tipo de violación a la legislación o regulación sobre el tema. Se trata de constatar cuál ha sido la efectividad de la medida de registro de celulares en la reducción del hurto de acuerdo con la información disponible.</p>
-
 <p>Para obtener la información se enviaron solicitudes de acceso a la información relacionada con la medida de registro.</p>
-
 <p>Como resultado de esas peticiones recibimos de parte de la Comisión de Regulación de Comunicaciones una base de datos con cifras desde 2012 hasta octubre de 2018 de IMEI reportados por las distintas causas establecidas en la regulación. A través de Asomóvil recibimos las cifras que se reportan en la Base de Datos Administrativa (positiva y negativa) por parte de Informática El Corte Inglés, por mes, año y causal del registro.</p>
-
 <p>Y de parte de la Policía Nacional recibimos varias tablas con reportes de hurtos de celulares con información especifica del municipio y departamento del robo, datos de la víctima, del victimario y del celular robado. Aunque la Policía Nacional tiene un sitio web dispuesto para la <a href="https://www.policia.gov.co/grupo-informacion-criminalidad/estadistica-delictiva">consulta de estadísticas delictivas</a> fue necesario solicitar la información sobre hurto de celulares porque a la fecha de la consulta no estaba disponible a través del sitio web.</p>
-
 <p>Todas las visualizaciones de datos se realizaron con <a href="https://www.datasketch.co/aplicaciones/galeria">Datasketch Apps</a>.</p>
-
-<h2 id="evaluación-estadística-de-la-bda-negativa">Evaluación estadística de la BDA negativa</h2>
-
+<h2 id="evaluacin-estadstica-de-la-bda-negativa">Evaluación estadística de la BDA negativa</h2>
 <p>Para la realización de la sección <a href="/ensayo-y-error/post/las-cifras-de-hurto-de-celulares/">&ldquo;Las cifras de hurto&rdquo;</a> se tuvo que realizar una evaluación sobre la tendencia en la serie de tiempo de la Base de Datos Administrativa Negativa respecto al robo de celulares.</p>
-
 <p>En términos estadísticos esto es probar si la serie de tiempo proviene de una caminata aleatoria. Es necesario entonces que la serie de tiempo sea estable, es decir, que la media y la varianza sean constantes en el tiempo. Para ello se realizan tres procedimientos:</p>
-
 <ul>
 <li>Se traslada la serie de tiempo para que tenga una media cero.</li>
 <li>Se evalúa si la serie es o no de varianza constante.</li>
 <li>Se evalúa si es necesario hacer alguna corrección para garantizar que la serie de tiempo sea de media constante.</li>
 </ul>
-
 <p>A través del test de Barlett y la prueba de raíz unitario se encontró que era necesario aplicar la transformación de logaritmo natural para estabilizar la varianza y diferenciar la serie de tiempo para garantizar la media constante.</p>
-
 <p>Aplicadas dichas transformaciones y correcciones, se puede probar si la serie es o no una caminata aleatoria a través de un autocorrelograma que rechaza la hipótesis de que la serie sea una caminata aleatoria, y se concluye que existe una correlación del número de celulares robados de un mes con el número de celulares robados en el mes inmediatamente anterior. Sin embargo esta correlación existente es débil y se encuentra alrededor del -0.25. Lo que indica que no hay una diferencia significativa en las cifras de un mes a otro.</p>
-
 <p>Este mismo procedimiento se realizó para la base de datos de hurtos de celulares entregada por la Policía Nacional.</p>
 
   </div>
