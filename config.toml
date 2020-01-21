@@ -1,4 +1,4 @@
-baseURL = "/ensayo-y-error/"
+baseURL = "/"
 languageCode = "es-MX"
 title = "Ensayo y error"
 publishDir = "docs"

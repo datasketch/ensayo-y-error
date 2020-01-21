@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ensayo y error</title>
-    <link>/ensayo-y-error/</link>
+    <link>/</link>
     <description>Recent content on Ensayo y error</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-MX</language>
     <lastBuildDate>Wed, 27 Nov 2019 10:47:11 -0500</lastBuildDate>
     
-	<atom:link href="/ensayo-y-error/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Las dificultades de esta estrategia</title>
-      <link>/ensayo-y-error/post/las-dificultades-de-esta-estrategia/</link>
+      <link>/post/las-dificultades-de-esta-estrategia/</link>
       <pubDate>Wed, 27 Nov 2019 10:47:11 -0500</pubDate>
       
-      <guid>/ensayo-y-error/post/las-dificultades-de-esta-estrategia/</guid>
+      <guid>/post/las-dificultades-de-esta-estrategia/</guid>
       <description>La Estrategia contra el hurto de celulares en Colombia comprendió el registro del IMEI como una respuesta directa al problema del hurto de celulares. El Congreso, a través de la Ley 1453 de 2011, y el Ministerio de las TIC, a través del Decreto 1630 de 2011, establecieron la obligación de consignar en bases de datos positivas y negativas aquellos IMEI que podían operar en el país y aquellos que no.</description>
     </item>
     
     <item>
       <title>Metodología</title>
-      <link>/ensayo-y-error/metodologia/</link>
+      <link>/metodologia/</link>
       <pubDate>Wed, 27 Nov 2019 09:37:24 -0500</pubDate>
       
-      <guid>/ensayo-y-error/metodologia/</guid>
+      <guid>/metodologia/</guid>
       <description>La información de este especial web está basada en la investigación “Ensayo y error: análisis de la efectividad del registro de celulares” de Fundación Karisma. En ese informe se analizan en detalle las cifras de hurto de celulares y se evidencia la falta de herramientas de monitoreo y evaluación en la política de registro de celulares en Colombia.
 Para la realización de este especial se utilizaron distintas fuentes de información pública disponibles a través de la Comisión de Regulación de Comunicaciones, la Asociación de la Industria Móvil de Colombia y la Policía Nacional.</description>
     </item>
     
     <item>
       <title>Las cifras de hurto de celulares</title>
-      <link>/ensayo-y-error/post/las-cifras-de-hurto-de-celulares/</link>
+      <link>/post/las-cifras-de-hurto-de-celulares/</link>
       <pubDate>Wed, 27 Nov 2019 09:29:48 -0500</pubDate>
       
-      <guid>/ensayo-y-error/post/las-cifras-de-hurto-de-celulares/</guid>
+      <guid>/post/las-cifras-de-hurto-de-celulares/</guid>
       <description>No existe un repositorio definitivo y público con cifras sobre el comportamiento del hurto de celulares en Colombia. Por eso, para saber si el robo de celulares disminuyó desde que se creó la medida de registro de IMEI, esta investigación recurrió a solicitudes de información a la Comisión de Regulación de Comunicaciones (CRC) y la Policía Nacional. A través de Asomóvil se obtuvieron los datos de la empresa Informática El Corte Inglés, que fue contratada como administradora de las bases de datos centralizadas o administrativas (BDA).</description>
     </item>
     
